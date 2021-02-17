@@ -1,0 +1,87 @@
+input {
+  min-width: 100%;
+  max-width: 100%;
+  border: 1px solid rgb(90, 192, 172);
+  color:rgb(90, 192, 172);
+}
+h1 {
+  padding: 10px 0 20px 50px;
+  margin: 20px;
+  border-bottom: 1px solid rgb(51, 44, 153);
+  color:rgb(51, 44, 153);
+  font-family: 'Cinzel', serif;
+}
+.column-headings {
+  font-family: 'Cinzel', serif;
+  font-size: 18pt;
+  text-shadow: 2px 2px 5px rgb(194, 194, 194);
+  margin-bottom: 10px;
+}
+.price-heading, .qty-heading, .sub-heading, .item-price, .item-total {
+  text-align: center;
+}
+.name-heading {
+  color: rgb(123, 58, 189);
+}
+.price-heading {
+  color: rgb(93, 123, 212);
+}
+.qty-heading {
+  color:rgb(55, 182, 156);
+}
+.sub-heading {
+  color: rgb(231, 187, 111); 
+}
+.item-row {
+  margin-bottom: 5px;
+  font-family: 'Tangerine', cursive;
+  font-size: 24pt;
+}
+.item-name {
+  padding-left: 35px;
+  color: rgb(201, 157, 245);
+}
+.item-price {
+  color: rgb(157, 179, 245);
+}
+.item-total {
+  color: rgb(245, 204, 132);
+}
+.remove {
+  display: block;
+  width: 100%;
+  color: rgb(219, 149, 181);
+  background-color: rgba(219, 149, 181, 0.1);
+  border: 1px solid rgb(219, 149, 181);
+}
+.seasonal {
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  font-size: 14pt;
+  margin-bottom: 10px;
+  color: rgb(51, 44, 153);
+}
+.add-row {
+  font-family: 'Cinzel', serif;
+  color: rgb(51, 44, 153);
+}
+.add {
+  border: 1px solid rgb(51, 44, 153);
+  background-color: rgb(225, 224, 255);
+  font-size: 14pt;
+}
+.total-label {
+  font-weight: bold;
+  font-size: 20pt;
+  text-align: right;
+}
+.cart-total {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+}
+.new-item, .new-item-price {
+  border: 1px solid rgb(51, 44, 153);
+  color:rgb(51, 44, 153);
+  font-size: 14pt;
+}
